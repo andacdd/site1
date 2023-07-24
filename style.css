@@ -1,0 +1,170 @@
+@font-face {
+    font-family: "logo" ;
+    src: url(fonts/yazı.ttf);
+}
+@font-face {
+    font-family: "normal";
+    src: url(fonts/InstrumentSerif-Regular.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%; 
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2 ease;
+}
+:root{
+    --main-text-color:rgb(87, 25, 145);
+    --menu-background-color: rgb(122, 121, 122);
+}
+html{
+    font-size: 62.5%;
+    overflow-x: 0;
+    scroll-padding-top: 9rem;
+    scroll-behavior: smooth;
+    font-family: "normal";
+}
+body{
+    min-height: 100vh;
+}
+#content{
+    padding: 15px;
+}
+section{
+    min-height: 100vh;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+header{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+    position: sticky;
+    top: 0%;
+    z-index: 1000;
+}
+header a{
+    color: rgb(87, 25, 145);
+}
+.searchIcon {
+  margin-left: 0;
+  color: var(--main-text-color);
+  cursor: pointer;
+  font-size: 2.5rem;
+  background-color: transparent; 
+  border: 0px;
+}
+.logo{
+    font-size: 6rem;
+    font-family: "normal";
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo i{
+    margin-left:10em ;
+    float: left;
+}
+.navbar a{
+    font-family: "normal";
+    font-size: 3rem;
+    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 110px;
+}
+.navbar a:hover{
+    font-size: 3.5rem;
+    color:  rgb(113, 30, 190);
+}
+.home{
+    
+    display: flex;
+    margin-top: 5rem;
+    padding: 1% 0;
+    margin-left: 1em;
+    
+    padding: 1rem 0;
+}
+.home .content{
+    max-width: 60rem;
+     
+}
+.home .content h1{
+    font-size: 6rem;
+    font-family: "logo";
+}
+.home .content p{
+    font-size: 2em;
+}
+.button{
+    background-color: black;
+    color: white;
+    font-family: "yazı";
+    height: 5rem;
+    width: 30rem;
+    text-align: center;
+    
+}
+.main-header{
+    font-size: 6rem;
+    font-family: "logo";
+    
+}
+.menu{
+   
+}
+.main-header a{
+    color: black;
+    
+}
+.menu .main-header{
+    display: flexbox;
+    text-align: center;
+}
+.menu .box-container{
+    display: flex;
+    gap: 4rem;
+    justify-content: space-between;
+}
+.menu .box-container .box img{
+    width: 100%;
+    object-fit: cover;
+}
+.menu .box-container .box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: var(--menu-background-color);
+    border-radius: 1rem;
+    border: 3px solid transparent;
+    overflow: hidden;
+}
+.menu .box h3{
+    font-size: 3rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+.menu .box .price{
+    font-size: 2rem;
+    text-align: center;
+}
+.menu .box .button{
+    text-align: center;
+    height: fit-content;
+    width: fit-content;
+}
+.menu .box:hover{
+    border: 3px solid black;
+}
+.menu .box-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
