@@ -75,10 +75,11 @@ header a{
     padding: 10px;
     box-sizing: border-box;
     width: 110px;
+    text-align: center;
 }
 .navbar a:hover{
-    font-size: 3.5rem;
     color:  rgb(113, 30, 190);
+    background-color: var(--menu-background-color);
 }
 .home{
     
@@ -155,8 +156,7 @@ header a{
 }
 .menu .box .button{
     text-align: center;
-    height: fit-content;
-    width: fit-content;
+    
 }
 .menu .box:hover{
     border: 3px solid black;
